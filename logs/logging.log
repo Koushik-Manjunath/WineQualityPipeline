@@ -1,0 +1,82 @@
+[2025-10-01 21:29:04,692:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-01 21:29:04,696:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:29:04,697:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:29:04,706:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:29:04,708:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:29:04,710:INFO:common:Created directory at: artifacts/data_ingestion]
+[2025-10-01 21:29:04,711:INFO:data_ingestion:File already exists]
+[2025-10-01 21:29:04,716:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:29:04,717:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-10-01 21:29:04,723:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:29:04,725:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:29:04,733:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:29:04,735:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:29:04,736:INFO:common:Created directory at: artifacts/data_validation]
+[2025-10-01 21:29:04,757:INFO:data_validation:All columns are valid according to the schema.]
+[2025-10-01 21:29:04,757:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:29:04,759:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-10-01 21:29:04,768:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:29:04,770:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:29:04,773:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:29:04,777:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:29:04,778:INFO:common:Created directory at: artifacts/data_ingestion]
+[2025-10-01 21:29:04,810:INFO:data_transformation:Splited data into training and test sets]
+[2025-10-01 21:29:04,811:INFO:data_transformation:(1199, 12)]
+[2025-10-01 21:29:04,812:INFO:data_transformation:(400, 12)]
+[2025-10-01 21:29:04,813:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:29:04,814:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-10-01 21:29:04,817:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:29:04,819:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:29:04,824:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:29:04,826:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:29:04,827:INFO:common:Created directory at: artifacts/model_trainer]
+[2025-10-01 21:29:04,878:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:31:34,554:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-01 21:31:34,565:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:31:34,574:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:31:34,584:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:31:34,586:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:31:34,586:INFO:common:Created directory at: artifacts/data_ingestion]
+[2025-10-01 21:31:34,587:INFO:data_ingestion:File already exists]
+[2025-10-01 21:31:34,616:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:31:34,618:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-10-01 21:31:34,624:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:31:34,627:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:31:34,639:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:31:34,640:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:31:34,642:INFO:common:Created directory at: artifacts/data_validation]
+[2025-10-01 21:31:34,672:INFO:data_validation:All columns are valid according to the schema.]
+[2025-10-01 21:31:34,674:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:31:34,675:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-10-01 21:31:34,685:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:31:34,688:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:31:34,694:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:31:34,696:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:31:34,699:INFO:common:Created directory at: artifacts/data_transformation]
+[2025-10-01 21:31:34,744:INFO:data_transformation:Splited data into training and test sets]
+[2025-10-01 21:31:34,750:INFO:data_transformation:(1199, 12)]
+[2025-10-01 21:31:34,752:INFO:data_transformation:(400, 12)]
+[2025-10-01 21:31:34,755:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-10-01 21:31:34,755:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-10-01 21:31:34,761:INFO:common:YAML file loaded successfully: config\config.yaml]
+[2025-10-01 21:31:34,764:INFO:common:YAML file loaded successfully: config\params.yaml]
+[2025-10-01 21:31:34,775:INFO:common:YAML file loaded successfully: config\schema.yaml]
+[2025-10-01 21:31:34,778:INFO:common:Created directory at: artifacts]
+[2025-10-01 21:31:34,781:INFO:common:Created directory at: artifacts/model_trainer]
+[2025-10-01 21:31:34,846:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]

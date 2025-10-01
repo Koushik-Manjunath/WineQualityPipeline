@@ -1,0 +1,27 @@
+columns:
+  - name: fixed acidity
+    dtype: float
+  - name: volatile acidity
+    dtype: float
+  - name: citric acid
+    dtype: float
+  - name: residual sugar
+    dtype: float
+  - name: chlorides
+    dtype: float
+  - name: free sulfur dioxide
+    dtype: int
+  - name: total sulfur dioxide
+    dtype: int
+  - name: density
+    dtype: float
+  - name: pH
+    dtype: float
+  - name: sulphates
+    dtype: float
+  - name: alcohol
+    dtype: float
+  - name: quality
+    dtype: int
+
+target_column: quality
